@@ -1,22 +1,23 @@
-# main links links
+# main links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  # TODO: Top navbar items. The `#anchor` must match ids in `_pages/about.md`.
+  - title: "About"
+    url: "/#about"
 
   - title: "News"
-    url: "/#-news"
+    url: "/#news"
+
+  - title: "Projects"
+    url: "/#projects"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#publications"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/#honors"
 
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Education"
+    url: "/#education"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/#internships"

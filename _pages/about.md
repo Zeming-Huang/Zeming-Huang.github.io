@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -15,44 +15,67 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<!--
+TODO: You mainly edit this file (`_pages/about.md`).
+If you haven't published yet, it's totally fine to keep the Publications section as "coming soon".
+-->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+<span class='anchor' id='about'></span>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests focus on machine learning and its corresponding applications, such as AI for health and audio processing. I enjoy exploring new areas and learning new things, both in research and in life.
 
+Currently, I am working on medical imaging of the prostate and intelligent diagnosis of electrocardiogram (ECG), including latent-space modeling of ECG signals.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<!--
+TODO(optional): Google Scholar link + citation badge
+Replace YOUR_GOOGLE_SCHOLAR_ID below when you have one.
+-->
+<!--
+I have a <a href='https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID'>Google Scholar profile</a>
+(badge: <a href='https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+-->
 
-# 📝 Publications 
+<span class='anchor' id='news'></span>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# News
+- *2025.08*: Started a new project on ECG representation learning and latent feature mining.
+- *2024.09*: Started research on prostate cancer imaging segmentation (ultrasound with privileged MRI information).
+- *2024.09*: Started M.Eng. at University of Chinese Academy of Sciences (UCAS), Beijing.
+- *2024.06*: Received B.Eng. from Sun Yat-sen University (SYSU), Guangzhou.
+- *2023.08 - 2023.09*: Internship at South China Sea Survey Center, Ministry of Natural Resources.
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<span class='anchor' id='projects'></span>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+# Projects
+- *2025.08 - Present*: **ECG Latent Feature Mining** — preprocessing ECG signals and exploring early model designs to improve prediction and interpretability.
+- *2024.09 - 2025.10*: **Prostate Cancer Imaging Segmentation** — ultrasound enhancement/segmentation with privileged MRI information during training; ultrasound-only inference (manuscript in preparation).
+- *2023.01 - 2023.12*: **AUV Formation Obstacle Avoidance (MADDPG)** — combined leader–follower formation with LOS guidance; built ROS + PyTorch environments; achieved stable obstacle-avoidance trajectories in simulation.
+- *2022.01 - 2022.12*: **Tracked ROV Design** — 3D modeling (SolidWorks), dynamics simulation, 3D printing & assembly, Arduino-based control, and water testing.
+- *2023.05 - 2024.07*: **National Marine Vehicle Design & Production Contest (Team Member)** — participated in AUV modification and underwater tests; served as presenter in competition and defense.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+<span class='anchor' id='publications'></span>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+# Publications
+<!-- TODO: Add your papers here when available. -->
+Coming soon.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='honors'></span>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# Honors and Awards
+- *2021*: Outstanding Prize, SYSU Experimental Skills Competition.
+- *2021*: Excellent Member, SYSU Admissions Publicity Association.
+- *2024*: Third Prize (South China Division), 12th National Marine Vehicle Design & Production Contest.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<span class='anchor' id='education'></span>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# Education
+- *2024.09 - Present*, Master of Engineering (Electronic, Electrical and Communication Engineering), University of Chinese Academy of Sciences, Beijing, China.
+- *2020.09 - 2024.06*, Bachelor of Engineering (Ocean Engineering and Technology), Sun Yat-sen University, Guangzhou, Guangdong, China.
+
+<span class='anchor' id='internships'></span>
+
+# Internships
+- *2023.08 - 2023.09*, South China Sea Survey Center, Ministry of Natural Resources — assisted buoy operations (deployment/recovery of GPS & CTD sensors) and processed/uploaded received data.
+
+# Activities
+- *2020 - 2022*, SYSU Admissions Publicity Association — Finance Department member; regional lead (Luohe) for winter outreach.

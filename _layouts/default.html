@@ -12,7 +12,9 @@ layout: compress
   <body>
 
     {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    {% if site.masthead_enabled != false %}
+      {% include masthead.html %}
+    {% endif %}
 
     <div id="main" role="main">
       {% include sidebar.html %}

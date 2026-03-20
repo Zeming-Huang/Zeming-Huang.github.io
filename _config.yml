@@ -5,59 +5,71 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-# Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
-google_scholar_stats_use_cdn : true
+# ============================
+# TODO: Fill these first
+# - title / description: homepage title + one-line tagline
+# - repository: "USERNAME/USERNAME.github.io"
+# - author.*: your name, affiliation, email, links, avatar
+# - author.googlescholar: your Google Scholar profile URL (contains user=XXXX)
+# - (optional) analytics + SEO verification codes
+# ============================
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+# Site Settings
+title: "Welcome to Zeming'Homepage" # TODO: e.g. "Your Name | Homepage"
+description: "" # TODO: 1-line bio / research area
+repository: "Zeming-Huang/acad-homepage.github.io" # TODO: set to "USERNAME/REPO" (NOT a URL). If your repo is "USERNAME/USERNAME.github.io", use that.
+baseurl: "/acad-homepage.github.io" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
+google_scholar_stats_use_cdn: true
+
+# Google Analytics
+google_analytics_id: # TODO(optional): GA4 measurement id, e.g. "G-XXXXXXXXXX"
+
+# Masthead (top navigation bar)
+masthead_enabled: false # TODO: set true to show the top navigation bar
 
 # SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
+google_site_verification: # TODO(optional)
+bing_site_verification: # TODO(optional)
+baidu_site_verification: # TODO(optional)
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
-  avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-
+  name: "Zeming Huang" # TODO
+  avatar: "/images/avatar.jpg" # TODO: your photo under images/
+  bio: "University of Chinese Academy of Sciences" # TODO: position / affiliation
+  location: "Beijing, China" # TODO
+  employer: # TODO(optional)
+  pubmed:
+  googlescholar: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" # TODO
+  email: "huangzeming24@mails.ucas.ac.cn" # TODO
+  researchgate: # TODO(optional): profile url
+  uri:
+  bitbucket:
+  codepen:
+  dribbble:
+  flickr:
+  facebook:
+  foursquare:
+  github: # TODO(optional): username (not url)
+  google_plus:
+  keybase:
+  instagram:
+  impactstory: # TODO(optional): profile url
+  lastfm:
+  linkedin: # TODO(optional): username (not url)
+  dblp: # TODO(optional): url
+  orcid: # TODO(optional): url
+  pinterest:
+  soundcloud:
+  stackoverflow: # http://stackoverflow.com/users/123456/username
+  steam:
+  tumblr:
+  twitter:
+  vine:
+  weibo:
+  xing:
+  youtube:
+  wikipedia:
 
 # Reading Files
 include:
@@ -97,14 +109,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -127,17 +137,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
 
 # Plugins
 plugins:
@@ -153,7 +160,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
