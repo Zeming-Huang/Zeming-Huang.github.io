@@ -18,7 +18,7 @@
 title: "Welcome to Zeming'Homepage" # TODO: e.g. "Your Name | Homepage"
 description: "" # TODO: 1-line bio / research area
 repository: "Zeming-Huang/acad-homepage.github.io" # TODO: set to "USERNAME/REPO" (NOT a URL). If your repo is "USERNAME/USERNAME.github.io", use that.
-baseurl: "/acad-homepage.github.io" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
+baseurl: "" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
 google_scholar_stats_use_cdn: true
 
 # Google Analytics
