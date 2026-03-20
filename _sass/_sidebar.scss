@@ -92,8 +92,11 @@
   }
 
   img {
-    max-width: 175px;
-    min-width: 75px;
+    display: block;
+    width: clamp(75px, 18vw, 175px);
+    height: clamp(75px, 18vw, 175px);
+    object-fit: cover;
+    object-position: center;
     border-radius: 50%;
 
     @include breakpoint($large) {
