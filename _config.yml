@@ -15,8 +15,9 @@
 # ============================
 
 # Site Settings
-title: "Welcome to Zeming'Homepage" # TODO: e.g. "Your Name | Homepage"
-description: "" # TODO: 1-line bio / research area
+title: "Zeming Huang | Homepage" # TODO: e.g. "Your Name | Homepage"
+description: "M.Eng. student at UCAS working on medical imaging and physiological signal processing." # TODO: 1-line bio / research area
+url: "https://zeming-huang.github.io"
 repository: "Zeming-Huang/Zeming-Huang.github.io" # TODO: set to "USERNAME/REPO" (NOT a URL). If your repo is "USERNAME/USERNAME.github.io", use that.
 baseurl: "" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
 google_scholar_stats_use_cdn: true
@@ -25,7 +26,7 @@ google_scholar_stats_use_cdn: true
 google_analytics_id: # TODO(optional): GA4 measurement id, e.g. "G-XXXXXXXXXX"
 
 # Masthead (top navigation bar)
-masthead_enabled: false # TODO: set true to show the top navigation bar
+masthead_enabled: true # TODO: set true to show the top navigation bar
 
 # SEO Related
 google_site_verification: # TODO(optional)
@@ -36,11 +37,11 @@ baidu_site_verification: # TODO(optional)
 author:
   name: "Zeming Huang" # TODO
   avatar: "/images/avatar.jpg" # TODO: your photo under images/
-  bio: "University of Chinese Academy of Sciences" # TODO: position / affiliation
+  bio: "M.Eng. student, University of Chinese Academy of Sciences" # TODO: position / affiliation
   location: "Beijing, China" # TODO
   employer: # TODO(optional)
   pubmed:
-  googlescholar: "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID" # TODO
+  googlescholar:
   email: "huangzeming24@mails.ucas.ac.cn" # TODO
   researchgate: # TODO(optional): profile url
   uri:
@@ -50,7 +51,7 @@ author:
   flickr:
   facebook:
   foursquare:
-  github: # TODO(optional): username (not url)
+  github: "Zeming-Huang" # TODO(optional): username (not url)
   google_plus:
   keybase:
   instagram:

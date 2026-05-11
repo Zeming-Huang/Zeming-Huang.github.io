@@ -15,67 +15,53 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<!--
-TODO: You mainly edit this file (`_pages/about.md`).
-If you haven't published yet, it's totally fine to keep the Publications section as "coming soon".
--->
+<span class="anchor" id="about"></span>
 
-<span class='anchor' id='about'></span>
+I am a Master of Engineering student at the University of Chinese Academy of Sciences, working on medical imaging and physiological signal processing. My current focus is on robust learning from noisy data, especially for prostate ultrasound segmentation and ECG evolution forecasting.
 
-My research interests focus on machine learning and its corresponding applications, such as AI for health and audio processing. I enjoy exploring new areas and learning new things, both in research and in life.
+I am interested in building models that are practical, interpretable, and useful in real clinical and engineering settings. My background also includes underwater acoustics, signal processing, and underwater vehicle design.
 
-Currently, I am working on medical imaging of the prostate and intelligent diagnosis of electrocardiogram (ECG), including latent-space modeling of ECG signals.
-
-<!--
-TODO(optional): Google Scholar link + citation badge
-Replace YOUR_GOOGLE_SCHOLAR_ID below when you have one.
--->
-<!--
-I have a <a href='https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID'>Google Scholar profile</a>
-(badge: <a href='https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
--->
-
-<span class='anchor' id='news'></span>
+<span class="anchor" id="news"></span>
 
 # News
-- *2025.08*: Started a new project on ECG representation learning and latent feature mining.
-- *2024.09*: Started research on prostate cancer imaging segmentation (ultrasound with privileged MRI information).
-- *2024.09*: Started M.Eng. at University of Chinese Academy of Sciences (UCAS), Beijing.
-- *2024.06*: Received B.Eng. from Sun Yat-sen University (SYSU), Guangzhou.
-- *2023.08 - 2023.09*: Internship at South China Sea Survey Center, Ministry of Natural Resources.
+- *2025.08*: Started work on individualized ECG evolution forecasting.
+- *2024.09*: Started research on prostate ultrasound segmentation with MRI-derived privileged information.
+- *2024.09*: Joined UCAS as an M.Eng. student in Electronic Information.
+- *2024.06*: Received B.Eng. from Sun Yat-sen University.
 
-<span class='anchor' id='projects'></span>
-
-# Projects
-- *2025.08 - Present*: **ECG Latent Feature Mining** — preprocessing ECG signals and exploring early model designs to improve prediction and interpretability.
-- *2024.09 - 2025.10*: **Prostate Cancer Imaging Segmentation** — ultrasound enhancement/segmentation with privileged MRI information during training; ultrasound-only inference (manuscript in preparation).
-- *2023.01 - 2023.12*: **AUV Formation Obstacle Avoidance (MADDPG)** — combined leader–follower formation with LOS guidance; built ROS + PyTorch environments; achieved stable obstacle-avoidance trajectories in simulation.
-- *2022.01 - 2022.12*: **Tracked ROV Design** — 3D modeling (SolidWorks), dynamics simulation, 3D printing & assembly, Arduino-based control, and water testing.
-- *2023.05 - 2024.07*: **National Marine Vehicle Design & Production Contest (Team Member)** — participated in AUV modification and underwater tests; served as presenter in competition and defense.
-
-<span class='anchor' id='publications'></span>
+<span class="anchor" id="publications"></span>
 
 # Publications
-<!-- TODO: Add your papers here when available. -->
-Coming soon.
+- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **Privileged Representation Informed Synergistic Model for Enhanced Transrectal Ultrasound Prostate Segmentation**. *IEEE Transactions on Medical Imaging*, under review.
+- Tao Wang, **Zeming Huang**, Zhipei Huang, Chenhao Wu, and Fei Qin. **STAGE: Single-Timepoint Age-Conditioned Gaussian Memory for Individual ECG Evolution Forecasting**. *NeurIPS*, submitted.
 
-<span class='anchor' id='honors'></span>
+<span class="anchor" id="experiences"></span>
 
-# Honors and Awards
-- *2021*: Outstanding Prize, SYSU Experimental Skills Competition.
-- *2021*: Excellent Member, SYSU Admissions Publicity Association.
-- *2024*: Third Prize (South China Division), 12th National Marine Vehicle Design & Production Contest.
+# Research and Engineering Experience
+- *2024.09 -- Present*, **Privileged Learning for Prostate Ultrasound Segmentation** - developed a deep learning framework for prostate segmentation in transrectal ultrasound images using MRI-derived privileged information; contributed to manuscript writing and grant proposal preparation for a NSFC Regional Science Fund project.
+- *2025.08 -- Present*, **Individualized ECG Evolution Forecasting** - worked on long-term ECG forecasting from single-timepoint recordings; implemented ECG preprocessing, representation learning, latent factor decoupling, and age-conditioned progression modeling; contributed to manuscript preparation and a NSFC General Program proposal.
+- *2024*, **Deep Learning-Based Underwater Acoustic Channel Estimation** - investigated deep learning methods for underwater acoustic channel estimation in noisy and time-varying conditions, with a focus on signal processing and experimental evaluation.
+- *2023.08 -- 2023.09*, **South China Sea Survey Center, Ministry of Natural Resources** - assisted buoy operations, including GPS and CTD sensor deployment and recovery, data reception, and cloud-based data uploading.
+- *2023 -- 2024*, **National Marine Vehicle Design and Manufacturing Competition** - participated in AUV modification, underwater testing, troubleshooting, and competition presentation; received Third Prize in the South China regional contest.
+- *2022*, **Tracked ROV Mechanical Design** - led the design of a tracked remotely operated vehicle; completed 3D modeling, motion simulation, and prototype fabrication using SolidWorks, COMSOL, CATIA, and 3D printing.
 
-<span class='anchor' id='education'></span>
+<span class="anchor" id="education"></span>
 
 # Education
-- *2024.09 - Present*, Master of Engineering (Electronic, Electrical and Communication Engineering), University of Chinese Academy of Sciences, Beijing, China.
-- *2020.09 - 2024.06*, Bachelor of Engineering (Ocean Engineering and Technology), Sun Yat-sen University, Guangzhou, Guangdong, China.
+- *2024.09 -- Present*, Master of Engineering in Electronic Information, University of Chinese Academy of Sciences, Beijing, China. GPA: 3.82/4.00.
+- *2020.09 -- 2024.06*, Bachelor of Engineering in Marine Engineering and Technology, Sun Yat-sen University, Guangdong, China. GPA: 3.36/4.00.
 
-<span class='anchor' id='internships'></span>
+<span class="anchor" id="honors"></span>
 
-# Internships
-- *2023.08 - 2023.09*, South China Sea Survey Center, Ministry of Natural Resources — assisted buoy operations (deployment/recovery of GPS & CTD sensors) and processed/uploaded received data.
+# Honors and Awards
+- *2024*: Third Prize, South China Division, 12th National Marine Vehicle Design and Manufacturing Contest.
+- *2021*: Outstanding Prize, SYSU Experimental Skills Competition.
+- *2021*: Excellent Member, SYSU Admissions Publicity Association.
 
-# Activities
-- *2020 - 2022*, SYSU Admissions Publicity Association — Finance Department member; regional lead (Luohe) for winter outreach.
+<span class="anchor" id="skills"></span>
+
+# Skills
+- Programming: Python, MATLAB
+- Research: Deep learning, ECG signal processing, time-series modeling, medical image analysis
+- Engineering: SolidWorks, AutoCAD, CATIA, COMSOL, Arduino, 3D printing
+- Languages: Mandarin Chinese (Native); English (CET-6, Intermediate)

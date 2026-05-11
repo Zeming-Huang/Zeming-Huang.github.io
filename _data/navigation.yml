@@ -7,17 +7,17 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Projects"
-    url: "/#projects"
-
   - title: "Publications"
     url: "/#publications"
 
-  - title: "Honors and Awards"
-    url: "/#honors"
+  - title: "Experiences"
+    url: "/#experiences"
 
   - title: "Education"
     url: "/#education"
 
-  - title: "Internships"
-    url: "/#internships"
+  - title: "Honors"
+    url: "/#honors"
+
+  - title: "Skills"
+    url: "/#skills"
