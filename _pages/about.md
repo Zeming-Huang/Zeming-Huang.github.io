@@ -17,13 +17,15 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
-I am a Master of Engineering student at the University of Chinese Academy of Sciences, working on medical imaging and physiological signal processing. My current focus is on robust learning from noisy data, especially for prostate ultrasound segmentation and ECG evolution forecasting.
+I am a Master of Engineering student at the University of Chinese Academy of Sciences, working on medical imaging and physiological signal processing. My current focus is on robust learning from noisy data, especially for prostate ultrasound segmentation and measurement, ECG evolution forecasting, and paroxysmal atrial fibrillation episode localization.
 
 I am interested in building models that are practical, interpretable, and useful in real clinical and engineering settings. My background also includes underwater acoustics, signal processing, and underwater vehicle design.
 
 <span class="anchor" id="news"></span>
 
 # News
+- *2026.09*: Developed NOR-TL for single-lead paroxysmal AF episode localization and MIRAUS for MRI-informed TRUS prostate boundary measurement.
+- *2026.07*: Started self-supervised rPPG research through the HCIX Research Club and a Tsinghua University collaboration.
 - *2025.08*: Started work on individualized ECG evolution forecasting.
 - *2024.09*: Started research on prostate ultrasound segmentation with MRI-derived privileged information.
 - *2024.09*: Joined UCAS as an M.Eng. student in Electronic Information.
@@ -31,15 +33,22 @@ I am interested in building models that are practical, interpretable, and useful
 
 <span class="anchor" id="publications"></span>
 
-# Publications
-- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **Privileged Representation Informed Synergistic Model for Enhanced Transrectal Ultrasound Prostate Segmentation**. *IEEE Transactions on Medical Imaging*, under review.
-- Tao Wang, **Zeming Huang**, Zhipei Huang, Chenhao Wu, and Fei Qin. **STAGE: Single-Timepoint Age-Conditioned Gaussian Memory for Individual ECG Evolution Forecasting**. *NeurIPS*, submitted.
+# Manuscripts
+- **Zeming Huang**, Tao Wang, Ning Liu, Yiquan Wang, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, and Fei Qin. **NOR-TL: Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization**. Manuscript. *First author.*
+- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **MIRAUS: MRI-Informed Residual Adaptation for Single-Frame TRUS Prostate Boundary Measurement**. In preparation for submission to *Measurement*. *Co-first author (listed first).*
+- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. Manuscript. *Co-first author (listed first).*
+- Tao Wang, **Zeming Huang**, Yiquan Wang, Ning Liu, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, Ming Yin, and Fei Qin. **Individualized ECG Waveform Forecasting Enables Testable Predictions of Longitudinal Morphology**. Manuscript. *Second author.*
+- Tao Wang, Zhicheng Hu, Gong Su, **Zeming Huang**, Zhipei Huang, Ming Yin, Chenhao Wu, Xiangao Meng, and Fei Qin. **A Cross-Temporal Latent Evolution Framework for Year-Scale ECG Waveform Forecasting from Historical Records**. *Information Sciences*, under review. *Fourth author.*
+- **BioShoulder: A Large-Scale Biomechanical Dataset for Shoulder Muscle Activations**. Manuscript. *Third author.*
 
 <span class="anchor" id="experiences"></span>
 
 # Research and Engineering Experience
-- *2024.09 -- Present*, **Privileged Learning for Prostate Ultrasound Segmentation** - developed a deep learning framework for prostate segmentation in transrectal ultrasound images using MRI-derived privileged information; contributed to manuscript writing and grant proposal preparation for a NSFC Regional Science Fund project.
-- *2025.08 -- Present*, **Individualized ECG Evolution Forecasting** - worked on long-term ECG forecasting from single-timepoint recordings; implemented ECG preprocessing, representation learning, latent factor decoupling, and age-conditioned progression modeling; contributed to manuscript preparation and a NSFC General Program proposal.
+- *2024.09 -- Present*, **Privileged Learning for Prostate Ultrasound Segmentation and Measurement** - developed PRISM and MIRAUS to use MRI-derived information during training while retaining TRUS-only inference; evaluated patient-disjoint segmentation, external generalization, and model-derived calipers for conventional ellipsoid volume estimation; contributed to manuscript writing and grant proposal preparation for a NSFC Regional Science Fund project.
+- *2025.08 -- Present*, **Individualized ECG Waveform Forecasting** - worked on long-term ECG forecasting from baseline and historical recordings; built preprocessing and representation-learning pipelines and contributed to data curation, waveform evaluation, and longitudinal follow-up analysis; contributed to manuscript preparation and a NSFC General Program proposal.
+- *Ongoing*, **NOR-TL: Paroxysmal AF Episode Localization** - developed normal-reference temporal learning with separate recording-level detection and dense temporal supervision; evaluated single-lead AF localization on AFDB and external LTAFDB and CPSC2021 cohorts, reaching 97.98% temporal AUROC and 0.838 MCC on CPSC2021.
+- *2026.07 -- Present*, **Self-Supervised Remote Photoplethysmography** - developing robust physiological representations from facial videos through the HCIX Research Club and a Tsinghua University collaboration; reproduced a self-supervised baseline and began exploring contrastive learning to separate pulse signals from motion and appearance interference.
+- *2025.04 -- Present*, **Shoulder Biomechanics and BioShoulder** - worked on biomechanical simulation and physical modeling of humeral motion; contributed to a quality-controlled dataset of simulated shoulder muscle activations covering 302 subjects, 1,886 motion trials, and 40 bilateral muscle-strand channels.
 - *2024*, **Deep Learning-Based Underwater Acoustic Channel Estimation** - investigated deep learning methods for underwater acoustic channel estimation in noisy and time-varying conditions, with a focus on signal processing and experimental evaluation.
 - *2023.08 -- 2023.09*, **South China Sea Survey Center, Ministry of Natural Resources** - assisted buoy operations, including GPS and CTD sensor deployment and recovery, data reception, and cloud-based data uploading.
 - *2023 -- 2024*, **National Marine Vehicle Design and Manufacturing Competition** - participated in AUV modification, underwater testing, troubleshooting, and competition presentation; received Third Prize in the South China regional contest.
@@ -54,6 +63,8 @@ I am interested in building models that are practical, interpretable, and useful
 <span class="anchor" id="honors"></span>
 
 # Honors and Awards
+- *2026*: Second-Class Academic Scholarship, University of Chinese Academy of Sciences.
+- *2026*: Merit Student, University of Chinese Academy of Sciences.
 - *2024*: Third Prize, South China Division, 12th National Marine Vehicle Design and Manufacturing Contest.
 - *2021*: Outstanding Prize, SYSU Experimental Skills Competition.
 - *2021*: Excellent Member, SYSU Admissions Publicity Association.
