@@ -6,3 +6,5 @@ push.sh
 .jekyll-cache/
 .sass-cache/
 .jekyll-metadata
+__pycache__/
+*.pyc

@@ -17,6 +17,8 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
+[[CV]]({{ '/cv/' | relative_url }}) [[ORCID]](https://orcid.org/0009-0004-1158-167X)
+
 I am a Master of Engineering student at the University of Chinese Academy of Sciences, working on AI for Health. My research focuses on learning reliable representations from complex, noisy, heterogeneous, and incomplete biomedical data, and developing methods that are useful in real clinical settings.
 
 I work on medical imaging and physiological signals, including prostate ultrasound segmentation and measurement, longitudinal ECG forecasting, and paroxysmal atrial fibrillation episode localization. Across these projects, I aim to connect robust learning with clinical needs, meaningful validation, and practical deployment. My engineering background in signal processing, physical modeling, and hands-on system building shapes how I approach these problems.

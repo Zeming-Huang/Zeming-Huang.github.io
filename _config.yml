@@ -59,7 +59,7 @@ author:
   lastfm:
   linkedin: # TODO(optional): username (not url)
   dblp: # TODO(optional): url
-  orcid: # TODO(optional): url
+  orcid: "https://orcid.org/0009-0004-1158-167X"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username
