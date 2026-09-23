@@ -4,15 +4,6 @@ main:
   - title: "About"
     url: "/#about"
 
-  - title: "CV"
-    url: "/cv/"
-
-  - title: "ORCID"
-    url: "https://orcid.org/0009-0004-1158-167X"
-
-  - title: "News"
-    url: "/#news"
-
   - title: "Manuscripts"
     url: "/#publications"
 

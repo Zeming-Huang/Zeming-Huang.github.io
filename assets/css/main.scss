@@ -97,6 +97,36 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
+.phd-opportunity {
+    margin: 1.5em 0;
+    padding: 1.25em 1.5em;
+    border: 1px solid #bdd4e5;
+    border-left: 4px solid #28648d;
+    border-radius: 8px;
+    background-color: #f2f7fb;
+    color: #243746;
+
+    h2 {
+        margin: 0 0 0.65em;
+        padding: 0;
+        border: 0;
+        font-size: 1.1em;
+    }
+
+    p {
+        margin: 0 0 0.75em;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: #205779;
+        text-decoration: underline;
+    }
+}
+
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
