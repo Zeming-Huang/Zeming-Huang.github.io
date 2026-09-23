@@ -12,76 +12,76 @@ author_profile: true
 ## EDUCATION
 
 **University of Chinese Academy of Sciences** · Beijing, China  
-M.S. Student in Electronic Information · Sep 2024 – Present  
-School of Electronic, Electrical and Communication Engineering  
-GPA: 3.82/4.00. Relevant coursework: Digital Signal Processing, Machine Learning, Acoustic Sensors, Underwater Acoustics.  
+Master's student in Electronic Information · Sep 2024 – Present  
+School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
-B.Eng. in Marine Engineering and Technology, School of Marine Engineering and Technology · Sep 2020 – Jun 2024  
-GPA: 3.36/4.00. Relevant coursework: Signals and Systems, Communication Principles, Microcomputer Principles and Interfaces, Artificial Intelligence, Control Engineering, Ocean Acoustics, Mechanical Design.
+B.Eng. in Marine Engineering and Technology · Sep 2020 – Jun 2024  
+GPA: 3.36/4.00.
 
 ## RESEARCH INTERESTS
 
-AI for Health, robust learning from noisy, heterogeneous, and incomplete biomedical data, medical image analysis, physiological signal representation learning, longitudinal ECG modeling, and multimodal learning.
+Cardiovascular AI, with a focus on ECG representation learning, arrhythmia monitoring, longitudinal cardiac modeling, and multimodal learning. Developing practical health AI under incomplete annotations, heterogeneous data, and limited modality availability at deployment.
+
+## RESEARCH EXPERIENCE
+
+**Individualized ECG Waveform Forecasting** · Aug 2025 – Present  
+*University of Chinese Academy of Sciences*  
+Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
+
+- Built preprocessing and representation-learning pipelines for longitudinal ECG modeling across more than one million public records and over 100,000 hospital-collected recordings, harmonizing heterogeneous sources for age-conditioned waveform forecasting.
+- Contributed data curation, analysis, and validation to two studies forecasting ECGs from a single baseline or historical records; assessed full-waveform and P/T-wave morphology, fixed-readout comparisons, and follow-up outcomes, including a clinical subset of 959 participants.
+- Contributed to NSFC General Program and Beijing Natural Science Foundation proposal preparation, linking longitudinal ECG modeling to clinically motivated research questions.
+
+**NOR-TL: Single-Lead Paroxysmal AF Episode Localization** · Apr 2026 – Sep 2026  
+*University of Chinese Academy of Sciences*  
+Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
+
+- Developed NOR-TL to locate paroxysmal atrial fibrillation episodes despite scarce time-point annotations, combining a frozen normal-pretrained ECG encoder with an adaptive AF stream to learn complementary rhythm representations.
+- Designed annotation-specific supervision: recording-level labels train pooled AF detection through multiple instance learning, while interval annotations train temporal localization, avoiding the use of coarse labels as time-point ground truth.
+- Evaluated detection and localization on AFDB and external LTAFDB and CPSC2021 cohorts with patient- or recording-disjoint partitions; achieved 97.98% temporal AUROC and 0.838 MCC on 1,425 CPSC2021 recordings. First-author manuscript submitted to ICASSP 2027.
+
+**MRI-Privileged Learning for Prostate Ultrasound** · Sep 2024 – Present  
+*University of Chinese Academy of Sciences*  
+Clinical collaborator: China-Japan Friendship Hospital, Beijing.
+
+- Designed and implemented MIRAUS to transfer MRI-derived anatomy during training into a model requiring only one transrectal ultrasound (TRUS) frame at inference; combined 2.5D MRI aggregation with spatially constrained residual distillation.
+- Achieved 93.20% Dice and 3.62 mm HD95 in patient-disjoint five-fold validation on 73 patients (3,885 frames). On 24 external patients (327 frames), box-assisted inference improved Dice from 71.30% to 84.72% relative to automatic inference.
+- Evaluated model-derived calipers in a simulated measurement workflow, obtaining 4.68 mL MAE against reference-caliper ellipsoid volumes; developed the complementary PRISM framework for prompt-assisted TRUS segmentation with training-stage MRI information.
 
 ## MANUSCRIPTS
 
-**Under Review**
+**Submitted / Under Review**
 
+- **NOR-TL: Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization**. Submitted to ICASSP 2027. *First author.*
 - **A Cross-Temporal Latent Evolution Framework for Year-Scale ECG Waveform Forecasting from Historical Records**. Information Sciences, under review. *Fourth author.*
 
 **Other Manuscripts**
 
-- **NOR-TL: Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization**. Manuscript. *First author.*
 - **MIRAUS: MRI-Informed Residual Adaptation for Single-Frame TRUS Prostate Boundary Measurement**. In preparation for submission to Measurement. *Co-first author (listed first).*
 - **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. Manuscript. *Co-first author (listed first).*
 - **Individualized ECG Waveform Forecasting Enables Testable Predictions of Longitudinal Morphology**. Manuscript. *Second author.*
 - **BioShoulder: A Large-Scale Biomechanical Dataset for Shoulder Muscle Activations**. Manuscript. *Third author.*
 
-## RESEARCH EXPERIENCE
+## ADDITIONAL RESEARCH AND ENGINEERING EXPERIENCE
 
-**MRI-Privileged Learning for TRUS Prostate Segmentation and Measurement** · Beijing, China  
-*University of Chinese Academy of Sciences; China-Japan Friendship Hospital* · Sep 2024 – Present
+**Biomechanical Simulation and Physical Modeling of Humeral Motion** · Apr 2025 – Present  
+*University of Chinese Academy of Sciences*  
+Collaborators: Peking University; Peking University People's Hospital.
 
-- Designed and implemented a training-only MRI-informed model for single-frame TRUS prostate segmentation and measurement, using utility-supervised 2.5D MRI aggregation and ROI-bounded residual distillation to exploit volumetric anatomy while requiring only one TRUS frame at inference.
-- Validated MIRAUS through patient-disjoint five-fold cross-validation on 73 μRegPro patients (3,885 frames), achieving 93.20% Dice and 3.62 mm HD95; on 24 external patients (327 frames), box-assisted inference improved Dice from 71.30% to 84.72% over automatic inference.
-- Evaluated model-derived calipers in a simulated measurement workflow, achieving 4.68 mL MAE against reference-caliper ellipsoid volumes; developed the complementary PRISM framework for prompt-assisted TRUS segmentation with training-stage MRI information.
+- Constructed an ANSYS model of humeral motion with physiological movement constraints; compared simulated kinematics and forces with collaborator measurements, finding preliminary agreement in motion-force trends.
+- Designed and built a rotating physical orthopedic model for bench-scale validation of humeral motion and loading responses, integrating 3D mechanical design, fabrication, and assembly.
 
-**Individualized ECG Waveform Forecasting** · Beijing, China  
-*University of Chinese Academy of Sciences* · Aug 2025 – Present
+**South China Sea Survey Center, Ministry of Natural Resources** · Aug 2023 – Sep 2023  
+*Buoy Laboratory Intern*
 
-- Built ECG preprocessing and representation-learning pipelines spanning more than one million public records from MIMIC-IV ECG, PTB-XL, CODE-15, and related datasets, together with over 100,000 hospital-collected recordings, standardizing heterogeneous sources for age-conditioned modeling.
-- Contributed data curation, analysis, and validation for individualized waveform forecasting, combining full-waveform and P/T-wave metrics with fixed-readout comparisons and follow-up outcome analyses; evaluation included a private clinical subset of 959 participants.
-- Supported longitudinal ECG modeling across two complementary studies: source-conditioned forecasting from a single baseline ECG and cross-temporal latent evolution from historical records; examined morphology preservation and progression-sensitive changes.
-- Contributed to research proposal preparation for applications to the NSFC General Program and the Beijing Natural Science Foundation, connecting longitudinal ECG modeling with clinically motivated research questions.
+- Supported GPS and CTD sensor deployment and recovery, processed received observations, and uploaded field data to cloud-based systems.
 
-**NOR-TL: Single-Lead Paroxysmal AF Episode Localization** · Beijing, China  
-*University of Chinese Academy of Sciences* · Ongoing
+**Miniature Tracked ROV for Marine Observation** · Jan 2022 – Dec 2022  
+*Project Leader, University-level Innovation Project, Sun Yat-sen University*
 
-- Developed normal-reference temporal learning with a frozen normal-pretrained encoder and an adaptive AF stream, decoupling recording-level detection from dense temporal supervision to use complementary annotation granularities.
-- Evaluated the framework on AFDB and external LTAFDB and CPSC2021 cohorts, keeping each patient or original recording within one partition; achieved 97.98% temporal AUROC and 0.838 MCC on 1,425 CPSC2021 recordings.
+- Led mechanical design and prototyping with SolidWorks, motion simulation, and 3D printing; assisted Arduino-based control and field testing, delivering a working underwater locomotion prototype.
 
-## SELECTED ENGINEERING AND RESEARCH PROJECTS
-
-**Biomechanical Simulation and Physical Modeling of Humeral Motion** · Beijing, China  
-*University of Chinese Academy of Sciences; Peking University; Peking University People's Hospital* · Apr 2025 – Present
-
-- Constructed an ANSYS model of humeral motion using biomechanically grounded constraints derived from physiological movement patterns to simulate force evolution throughout the motion cycle.
-- Compared simulated kinematics and force responses with measurements collected by collaborators, obtaining preliminary agreement in motion-force trends and supporting model refinement.
-- Designed and built a physical orthopedic model with a rotating structure that reproduces humeral motion, connecting 3D mechanical design and assembly with bench-scale validation of simulated kinematics and loading responses.
-
-**Design of a Miniature Tracked ROV for Marine Observation** · Guangdong, China  
-*Project Leader | University-level Innovation Project* · Jan 2022 – Dec 2022
-
-- Led the design of a tracked remotely operated vehicle for stable near-seafloor operation, integrating mechanical structure, propulsion, and embedded control.
-- Completed 3D modeling and mechanical simulation with SolidWorks and SolidWorks Motion; fabricated structural components via 3D printing and assembled the mechanical system.
-- Assisted with Arduino-based control and field testing, completing a working prototype that supported underwater locomotion and basic operation.
-
-**Internship at South China Sea Survey Center, Ministry of Natural Resources** · Guangdong, China  
-*Buoy Laboratory Intern* · Aug 2023 – Sep 2023
-
-- Supported deployment and recovery of GPS and CTD sensors, processed received data, and uploaded field observations to cloud-based systems.
-
-## AWARDS
+## HONORS AND AWARDS
 
 - Second-Class Academic Scholarship, University of Chinese Academy of Sciences · 2026
 - Merit Student, University of Chinese Academy of Sciences · 2026
@@ -91,6 +91,6 @@ AI for Health, robust learning from noisy, heterogeneous, and incomplete biomedi
 
 ## SKILLS
 
-- **Programming:** Python, MATLAB; digital signal processing.
-- **Engineering Tools:** ANSYS, SolidWorks, SolidWorks Motion, AutoCAD; 3D printing and mechanical assembly.
-- **Languages:** Mandarin Chinese; English CET-6.
+- **Programming and Methods:** Python, MATLAB; digital signal processing, ECG representation learning, multimodal learning, medical image analysis, and patient-disjoint evaluation.
+- **Engineering:** ANSYS, SolidWorks, SolidWorks Motion, AutoCAD; 3D printing and mechanical assembly.
+- **Languages:** Mandarin Chinese; English (CET-6).

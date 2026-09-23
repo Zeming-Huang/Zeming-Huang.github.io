@@ -70,7 +70,7 @@ def inline(text: str) -> str:
             out.append(" | ")
         elif cmd == "mu":
             out.append("μ")
-        elif cmd in {"noindent", "baselineskip"}:
+        elif cmd in {"noindent", "baselineskip", "newpage"}:
             pass
         else:
             raise ValueError(f"Unsupported LaTeX command: \\{cmd}")

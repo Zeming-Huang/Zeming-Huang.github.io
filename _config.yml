@@ -16,7 +16,7 @@
 
 # Site Settings
 title: "Zeming Huang | Homepage" # TODO: e.g. "Your Name | Homepage"
-description: "M.Eng. student at UCAS working on medical imaging and physiological signal processing." # TODO: 1-line bio / research area
+description: "Master's student at UCAS working on cardiovascular AI, physiological signals, and multimodal learning."
 url: "https://zeming-huang.github.io"
 repository: "Zeming-Huang/Zeming-Huang.github.io" # TODO: set to "USERNAME/REPO" (NOT a URL). If your repo is "USERNAME/USERNAME.github.io", use that.
 baseurl: "" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
@@ -37,7 +37,7 @@ baidu_site_verification: # TODO(optional)
 author:
   name: "Zeming Huang" # TODO
   avatar: "/images/avatar.jpg" # TODO: your photo under images/
-  bio: "M.Eng. student, University of Chinese Academy of Sciences" # TODO: position / affiliation
+  bio: "Master's student, University of Chinese Academy of Sciences"
   location: "Beijing, China" # TODO
   employer: # TODO(optional)
   pubmed:
