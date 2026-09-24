@@ -18,7 +18,7 @@
   status: "In preparation for submission to Measurement"
   role: "Co-first author · listed first"
   image: /images/manuscripts/miraus.png
-  image_alt: "MIRAUS clinical workflow: MRI supports training, while automatic or box-assisted deployment requires only one ultrasound frame."
+  image_alt: "MIRAUS Figure 2: MRI-privileged teacher training, residual privileged transfer, and TRUS-only deployment."
   summary: "Using MRI-derived anatomy during training to support prostate boundary measurement from a single ultrasound frame. The deployed model requires no MRI and supports both automatic and box-assisted inference."
   links:
     - label: PDF
@@ -35,7 +35,8 @@
   status: Manuscript
   role: "Co-first author · listed first"
   image: /images/manuscripts/prism.png
-  image_alt: "PRISM training and inference diagram, with MRI providing privileged information only during training."
+  image_alt: "Clinical motivation for MRI-informed ultrasound learning, illustrated using Figure 1 from MIRAUS."
+  image_note: "Clinical context · MIRAUS Fig. 1"
   summary: "Transferring MRI anatomical information into prompt-assisted ultrasound segmentation. Privileged attention, reliability-aware fusion, and distribution alignment address weak cross-modal correspondence while keeping inference ultrasound-only."
   links:
     - label: PDF
@@ -49,9 +50,8 @@
   authors_html: "Tao Wang, <strong>Zeming Huang</strong>, Yiquan Wang, Ning Liu, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, Ming Yin, and Fei Qin"
   status: Manuscript
   role: "Second author"
-  image: /images/manuscripts/ecg-forecasting.svg
-  image_alt: "Conceptual illustration of a baseline ECG and a future waveform; not patient data or an experimental result."
-  image_note: "Concept illustration"
+  image: /images/manuscripts/ecg-forecasting.png
+  image_alt: "Figure 1 from the individualized ECG forecasting manuscript: population-based model development and a baseline-to-future clinical workflow."
   summary: "Studying individualized ECG waveform forecasts from a baseline recording, with evaluation focused on longitudinal morphology. My contributions include data curation, waveform analysis, and validation."
 
 - id: clef
@@ -60,9 +60,8 @@
   authors_html: "Tao Wang, Zhicheng Hu, Gong Su, <strong>Zeming Huang</strong>, Zhipei Huang, Ming Yin, Chenhao Wu, Xiangao Meng, and Fei Qin"
   status: "Information Sciences · under review"
   role: "Fourth author"
-  image: /images/manuscripts/longitudinal-ecg.svg
-  image_alt: "Conceptual illustration of repeated ECG observations along a timeline; not a disclosure of the manuscript architecture."
-  image_note: "Concept illustration"
+  image: /images/manuscripts/longitudinal-ecg.png
+  image_alt: "CLEF Figure 1: historical ECG standardization, morphology-aware pretraining, and latent evolution for future waveform reconstruction."
   summary: "Investigating year-scale ECG waveform forecasting from historical recordings. This work examines longitudinal morphology and progression-sensitive changes, supported by my contributions to data processing, analysis, and validation."
 
 - id: bioshoulder
