@@ -1,0 +1,27 @@
+<div class="manuscript-list">
+  {% for paper in site.data.manuscripts %}
+  <article class="manuscript-card" aria-labelledby="paper-{{ paper.id }}">
+    <div class="manuscript-card__visual">
+      <a class="manuscript-card__figure" href="{{ paper.image | relative_url }}" target="_blank" rel="noopener" aria-label="{{ paper.label | escape }}: view larger image">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" loading="lazy" decoding="async" width="720" height="480">
+      </a>
+      {% if paper.image_note %}<span class="manuscript-card__image-note">{{ paper.image_note | escape }}</span>{% endif %}
+    </div>
+    <div class="manuscript-card__content">
+      <p class="manuscript-card__label">{{ paper.label | escape }}</p>
+      <h2 id="paper-{{ paper.id }}" class="manuscript-card__title">{{ paper.title | escape }}</h2>
+      {% if paper.authors_html %}<p class="manuscript-card__authors">{{ paper.authors_html }}</p>{% endif %}
+      <p class="manuscript-card__meta"><span>{{ paper.status | escape }}</span><span class="manuscript-card__role">{{ paper.role | escape }}</span></p>
+      <p class="manuscript-card__summary">{{ paper.summary | escape }}</p>
+      {% if paper.links %}
+      <div class="manuscript-card__links" aria-label="{{ paper.label | escape }} resources">
+        {% for resource in paper.links %}
+        {% assign prefix = resource.url | slice: 0, 1 %}
+        <a href="{% if prefix == '/' %}{{ resource.url | relative_url }}{% else %}{{ resource.url }}{% endif %}" aria-label="{{ paper.label | escape }}: {{ resource.label | escape }}">{{ resource.label | escape }}<span aria-hidden="true"> ↗</span></a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>

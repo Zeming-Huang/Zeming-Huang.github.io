@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title description">
+  <title id="title">Individualized ECG forecasting</title>
+  <desc id="description">Concept illustration of a baseline and future ECG. Synthetic waveforms, not study data.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#deebef" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="720" height="480" rx="18" fill="#f5f9fb"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#316b80">INDIVIDUALIZED ECG</text>
+  <text x="42" y="88" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#233e50">From baseline to future morphology</text>
+  <rect x="42" y="114" width="636" height="264" rx="10" fill="url(#grid)"/>
+  <text x="58" y="145" font-family="Arial, sans-serif" font-size="17" fill="#526b79">Baseline recording</text>
+  <path d="M60 203H103Q114 185 126 203H145L152 217L166 159L179 227L190 203H209Q232 173 255 203H309L316 217L330 159L343 227L354 203H373Q396 173 419 203H473L480 217L494 159L507 227L518 203H537Q560 173 583 203H656" fill="none" stroke="#277986" stroke-width="4" stroke-linejoin="round"/>
+  <text x="58" y="277" font-family="Arial, sans-serif" font-size="17" fill="#526b79">Future waveform</text>
+  <path d="M60 332H103Q114 314 126 332H145L152 346L166 288L179 356L190 332H209Q232 302 255 332H309L316 346L330 288L343 356L354 332H373Q396 302 419 332H473L480 346L494 288L507 356L518 332H537Q560 302 583 332H656" fill="none" stroke="#788ba6" stroke-width="4" stroke-dasharray="9 6" stroke-linejoin="round"/>
+  <text x="42" y="429" font-family="Arial, sans-serif" font-size="18" fill="#526b79">Longitudinal morphology · Patient-specific modeling</text>
+</svg>

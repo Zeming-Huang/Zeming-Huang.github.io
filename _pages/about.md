@@ -30,12 +30,8 @@ I work on medical imaging and physiological signals, including prostate ultrasou
 <span class="anchor" id="publications"></span>
 
 # Manuscripts
-- **Zeming Huang**, Tao Wang, Ning Liu, Yiquan Wang, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, and Fei Qin. **NOR-TL: Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization**. Submitted to **ICASSP 2027**. *First author.* [[PDF]]({{ '/files/papers/nor-tl.pdf' | relative_url }})
-- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **MIRAUS: MRI-Informed Residual Adaptation for Single-Frame TRUS Prostate Boundary Measurement**. In preparation for submission to *Measurement*. *Co-first author (listed first).* [[PDF]]({{ '/files/papers/miraus.pdf' | relative_url }}) [[Code]](https://github.com/Zeming-Huang/MIRAUS) [[Project Page]](https://zeming-huang.github.io/MIRAUS/)
-- **Zeming Huang**, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin. **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. Manuscript. *Co-first author (listed first).* [[PDF]]({{ '/files/papers/prism.pdf' | relative_url }}) [[Code]](https://github.com/Zeming-Huang/PRISM)
-- Tao Wang, **Zeming Huang**, Yiquan Wang, Ning Liu, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, Ming Yin, and Fei Qin. **Individualized ECG Waveform Forecasting Enables Testable Predictions of Longitudinal Morphology**. Manuscript. *Second author.*
-- Tao Wang, Zhicheng Hu, Gong Su, **Zeming Huang**, Zhipei Huang, Ming Yin, Chenhao Wu, Xiangao Meng, and Fei Qin. **A Cross-Temporal Latent Evolution Framework for Year-Scale ECG Waveform Forecasting from Historical Records**. *Information Sciences*, under review. *Fourth author.*
-- **BioShoulder: A Large-Scale Biomechanical Dataset for Shoulder Muscle Activations**. Manuscript. *Third author.* [[PDF]]({{ '/files/papers/bioshoulder.pdf' | relative_url }})
+
+{% include manuscript-cards.html %}
 
 <span class="anchor" id="experiences"></span>
 

@@ -1,0 +1,78 @@
+- id: nor-tl
+  label: NOR-TL
+  title: "Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization"
+  authors_html: "<strong>Zeming Huang</strong>, Tao Wang, Ning Liu, Yiquan Wang, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, and Fei Qin"
+  status: "Submitted to ICASSP 2027"
+  role: "First author"
+  image: /images/manuscripts/nor-tl.png
+  image_alt: "NOR-TL architecture showing normal-reference and AF-specific encoders with separate detection and temporal supervision."
+  summary: "Locating intermittent atrial fibrillation when detailed rhythm annotations are scarce. NOR-TL combines normal-reference and AF-specific representations, using recording-level labels for detection and interval annotations for temporal localization."
+  links:
+    - label: PDF
+      url: /files/papers/nor-tl.pdf
+
+- id: miraus
+  label: MIRAUS
+  title: "MRI-Informed Residual Adaptation for Single-Frame TRUS Prostate Boundary Measurement"
+  authors_html: "<strong>Zeming Huang</strong>, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin"
+  status: "In preparation for submission to Measurement"
+  role: "Co-first author · listed first"
+  image: /images/manuscripts/miraus.png
+  image_alt: "MIRAUS clinical workflow: MRI supports training, while automatic or box-assisted deployment requires only one ultrasound frame."
+  summary: "Using MRI-derived anatomy during training to support prostate boundary measurement from a single ultrasound frame. The deployed model requires no MRI and supports both automatic and box-assisted inference."
+  links:
+    - label: PDF
+      url: /files/papers/miraus.pdf
+    - label: Code
+      url: https://github.com/Zeming-Huang/MIRAUS
+    - label: Project
+      url: https://zeming-huang.github.io/MIRAUS/
+
+- id: prism
+  label: PRISM
+  title: "A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation"
+  authors_html: "<strong>Zeming Huang</strong>, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin"
+  status: Manuscript
+  role: "Co-first author · listed first"
+  image: /images/manuscripts/prism.png
+  image_alt: "PRISM training and inference diagram, with MRI providing privileged information only during training."
+  summary: "Transferring MRI anatomical information into prompt-assisted ultrasound segmentation. Privileged attention, reliability-aware fusion, and distribution alignment address weak cross-modal correspondence while keeping inference ultrasound-only."
+  links:
+    - label: PDF
+      url: /files/papers/prism.pdf
+    - label: Code
+      url: https://github.com/Zeming-Huang/PRISM
+
+- id: ecg-forecasting
+  label: ECG FORECASTING
+  title: "Individualized ECG Waveform Forecasting Enables Testable Predictions of Longitudinal Morphology"
+  authors_html: "Tao Wang, <strong>Zeming Huang</strong>, Yiquan Wang, Ning Liu, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, Ming Yin, and Fei Qin"
+  status: Manuscript
+  role: "Second author"
+  image: /images/manuscripts/ecg-forecasting.svg
+  image_alt: "Conceptual illustration of a baseline ECG and a future waveform; not patient data or an experimental result."
+  image_note: "Concept illustration"
+  summary: "Studying individualized ECG waveform forecasts from a baseline recording, with evaluation focused on longitudinal morphology. My contributions include data curation, waveform analysis, and validation."
+
+- id: clef
+  label: LONGITUDINAL ECG
+  title: "A Cross-Temporal Latent Evolution Framework for Year-Scale ECG Waveform Forecasting from Historical Records"
+  authors_html: "Tao Wang, Zhicheng Hu, Gong Su, <strong>Zeming Huang</strong>, Zhipei Huang, Ming Yin, Chenhao Wu, Xiangao Meng, and Fei Qin"
+  status: "Information Sciences · under review"
+  role: "Fourth author"
+  image: /images/manuscripts/longitudinal-ecg.svg
+  image_alt: "Conceptual illustration of repeated ECG observations along a timeline; not a disclosure of the manuscript architecture."
+  image_note: "Concept illustration"
+  summary: "Investigating year-scale ECG waveform forecasting from historical recordings. This work examines longitudinal morphology and progression-sensitive changes, supported by my contributions to data processing, analysis, and validation."
+
+- id: bioshoulder
+  label: BIOSHOULDER
+  title: "A Large-Scale Biomechanical Dataset for Shoulder Muscle Activations"
+  status: Manuscript
+  role: "Third author"
+  image: /images/manuscripts/bioshoulder.png
+  image_alt: "BioShoulder data pipeline, from motion curation through biomechanical simulation to quality-controlled muscle activations."
+  summary: "A dataset of quality-controlled, simulated shoulder muscle activations derived from human motion. It combines motion curation, musculoskeletal simulation, and activation screening, with benchmarks for motion-to-muscle prediction."
+  links:
+    - label: PDF
+      url: /files/papers/bioshoulder.pdf

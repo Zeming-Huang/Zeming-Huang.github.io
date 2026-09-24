@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" role="img" aria-labelledby="title description">
+  <title id="title">Longitudinal ECG observations</title>
+  <desc id="description">Concept illustration of repeated ECG observations over time, not the manuscript architecture or experimental data.</desc>
+  <rect width="720" height="480" rx="18" fill="#f4f7fc"/>
+  <text x="42" y="52" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#566c98">LONGITUDINAL ECG</text>
+  <text x="42" y="88" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#233e50">Learning from a patient's history</text>
+  <g fill="#fff" stroke="#cdd9e7" stroke-width="2">
+    <rect x="42" y="160" width="190" height="130" rx="12"/>
+    <rect x="265" y="160" width="190" height="130" rx="12"/>
+    <rect x="488" y="160" width="190" height="130" rx="12"/>
+  </g>
+  <g fill="none" stroke="#546f9d" stroke-width="4" stroke-linejoin="round">
+    <path d="M56 233H88Q96 219 105 233H117L123 243L134 190L145 253L156 233H169Q184 210 199 233H217"/>
+    <path d="M279 233H311Q319 219 328 233H340L346 243L357 190L368 253L379 233H392Q407 210 422 233H440"/>
+    <path d="M502 233H534Q542 219 551 233H563L569 243L580 190L591 253L602 233H615Q630 210 645 233H663"/>
+  </g>
+  <path d="M80 337H653M643 330L653 337L643 344" fill="none" stroke="#a3b2c9" stroke-width="3"/>
+  <g fill="#546f9d"><circle cx="137" cy="337" r="7"/><circle cx="360" cy="337" r="7"/><circle cx="583" cy="337" r="7"/></g>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#526b79" text-anchor="middle">
+    <text x="137" y="372">Earlier visit</text><text x="360" y="372">Follow-up</text><text x="583" y="372">Later visit</text>
+  </g>
+  <text x="42" y="429" font-family="Arial, sans-serif" font-size="18" fill="#526b79">Historical records · Year-scale waveform forecasting</text>
+</svg>
