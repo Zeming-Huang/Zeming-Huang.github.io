@@ -28,7 +28,7 @@ Cardiovascular AI, with a focus on ECG representation learning, arrhythmia monit
 *University of Chinese Academy of Sciences*  
 Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 
-- Investigated whether future ECG morphology could be forecast from baseline or historical recordings, enabling direct comparison with follow-up waveforms despite sparse observations and differences in patient morphology and acquisition conditions.
+- Investigated patient-specific, year-scale ECG forecasting under sparse follow-up and heterogeneous acquisition conditions, aiming to distinguish stable individual morphology from longitudinal change and produce waveforms testable against future recordings.
 - Built ECG preprocessing and representation-learning pipelines across over one million public records and over 100,000 hospital recordings; contributed data curation, full-waveform and P/T-wave analysis, fixed-readout comparisons, and follow-up validation to baseline-conditioned and historical-record forecasting studies.
 - Baseline-conditioned forecasts showed correspondence with within-person follow-up morphology and fixed clinical readouts, including evaluation in a 959-participant clinical subset. In historical-record forecasting, CLEF achieved a normalized RMSE of 0.077 versus 0.106 for an LSTM baseline.
 
@@ -36,15 +36,15 @@ Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 *University of Chinese Academy of Sciences*  
 Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 
-- Developed NOR-TL to locate paroxysmal atrial fibrillation episodes despite scarce time-point annotations, combining a frozen normal-pretrained ECG encoder with an adaptive AF stream to learn complementary rhythm representations.
-- Designed annotation-specific supervision: recording-level labels train pooled AF detection through multiple instance learning, while interval annotations train temporal localization, avoiding the use of coarse labels as time-point ground truth.
-- Evaluated detection and localization on AFDB and external LTAFDB and CPSC2021 cohorts with patient- or recording-disjoint partitions; achieved 97.98% temporal AUROC and 0.838 MCC on 1,425 CPSC2021 recordings. First-author manuscript submitted to ICASSP 2027.
+- Addressed scarce time-point rhythm annotations and abundant coarse recording labels in single-lead ECG, aiming to localize paroxysmal atrial fibrillation episodes without treating recording-level labels as temporal ground truth.
+- Designed and implemented NOR-TL with a frozen normal-reference encoder, an adaptive AF stream, and separate supervision for pooled detection and temporal localization. Evaluated on AFDB and external LTAFDB and CPSC2021 cohorts with patient- or recording-disjoint partitions.
+- Achieved 97.98% temporal AUROC and 0.838 MCC on 1,425 external CPSC2021 recordings by combining complementary annotation granularities. First-author manuscript submitted to ICASSP 2027.
 
 **MRI-Privileged Learning for Prostate Ultrasound** · Sep 2024 – Present  
 *University of Chinese Academy of Sciences*  
 Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 
-- Investigated how to improve prostate boundary and volume measurement in noisy, low-contrast transrectal ultrasound (TRUS), where contour errors propagate into volume estimates and MRI is impractical as a routine input.
+- Addressed unreliable prostate boundaries in noisy, low-contrast transrectal ultrasound (TRUS) and the acquisition burden of routine MRI, aiming to improve segmentation and volume measurement while keeping deployment limited to a single ultrasound frame.
 - Designed and implemented MIRAUS with utility-guided 2.5D MRI aggregation and ROI-bounded residual distillation, using MRI only during training and one TRUS frame at inference; developed complementary PRISM. Conducted patient-disjoint five-fold validation on 73 patients and automatic versus box-assisted evaluation on 24 external patients.
 - MIRAUS achieved 93.20% Dice and 3.62 mm HD95 internally; external Dice increased from 71.30% with automatic inference to 84.72% with box assistance. Model-derived calipers yielded 4.68 mL MAE against reference-caliper ellipsoid volumes in a simulated measurement workflow.
 
