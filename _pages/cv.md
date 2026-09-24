@@ -28,9 +28,9 @@ Cardiovascular AI, with a focus on ECG representation learning, arrhythmia monit
 *University of Chinese Academy of Sciences*  
 Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 
-- Built preprocessing and representation-learning pipelines for longitudinal ECG modeling across more than one million public records and over 100,000 hospital-collected recordings, harmonizing heterogeneous sources for age-conditioned waveform forecasting.
-- Contributed data curation, analysis, and validation to two studies forecasting ECGs from a single baseline or historical records; assessed full-waveform and P/T-wave morphology, fixed-readout comparisons, and follow-up outcomes, including a clinical subset of 959 participants.
-- Contributed to NSFC General Program and Beijing Natural Science Foundation proposal preparation, linking longitudinal ECG modeling to clinically motivated research questions.
+- Investigated whether future ECG morphology could be forecast from baseline or historical recordings, enabling direct comparison with follow-up waveforms despite sparse observations and differences in patient morphology and acquisition conditions.
+- Built ECG preprocessing and representation-learning pipelines across over one million public records and over 100,000 hospital recordings; contributed data curation, full-waveform and P/T-wave analysis, fixed-readout comparisons, and follow-up validation to baseline-conditioned and historical-record forecasting studies.
+- Baseline-conditioned forecasts showed correspondence with within-person follow-up morphology and fixed clinical readouts, including evaluation in a 959-participant clinical subset. In historical-record forecasting, CLEF achieved a normalized RMSE of 0.077 versus 0.106 for an LSTM baseline.
 
 **NOR-TL: Single-Lead Paroxysmal AF Episode Localization** · Apr 2026 – Sep 2026  
 *University of Chinese Academy of Sciences*  
@@ -44,9 +44,9 @@ Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 *University of Chinese Academy of Sciences*  
 Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 
-- Designed and implemented MIRAUS to transfer MRI-derived anatomy during training into a model requiring only one transrectal ultrasound (TRUS) frame at inference; combined 2.5D MRI aggregation with spatially constrained residual distillation.
-- Achieved 93.20% Dice and 3.62 mm HD95 in patient-disjoint five-fold validation on 73 patients (3,885 frames). On 24 external patients (327 frames), box-assisted inference improved Dice from 71.30% to 84.72% relative to automatic inference.
-- Evaluated model-derived calipers in a simulated measurement workflow, obtaining 4.68 mL MAE against reference-caliper ellipsoid volumes; developed the complementary PRISM framework for prompt-assisted TRUS segmentation with training-stage MRI information.
+- Investigated how to improve prostate boundary and volume measurement in noisy, low-contrast transrectal ultrasound (TRUS), where contour errors propagate into volume estimates and MRI is impractical as a routine input.
+- Designed and implemented MIRAUS with utility-guided 2.5D MRI aggregation and ROI-bounded residual distillation, using MRI only during training and one TRUS frame at inference; developed complementary PRISM. Conducted patient-disjoint five-fold validation on 73 patients and automatic versus box-assisted evaluation on 24 external patients.
+- MIRAUS achieved 93.20% Dice and 3.62 mm HD95 internally; external Dice increased from 71.30% with automatic inference to 84.72% with box assistance. Model-derived calipers yielded 4.68 mL MAE against reference-caliper ellipsoid volumes in a simulated measurement workflow.
 
 ## MANUSCRIPTS
 
