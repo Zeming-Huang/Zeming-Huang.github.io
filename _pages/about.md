@@ -49,7 +49,7 @@ I work on medical imaging and physiological signals, including prostate ultrasou
 
 # Education
 - *2024.09 -- Present*, Master's studies in Electronic Information, **University of Chinese Academy of Sciences**, Beijing, China. Research university of China's national academy of sciences; ranked **54th globally and 5th in China** ([U.S. News Best Global Universities, 2025–2026](https://www.usnews.com/education/best-global-universities/university-of-chinese-academy-of-sciences-529679)).
-- *2020.09 -- 2024.06*, Bachelor of Engineering in Marine Engineering and Technology, **Sun Yat-sen University**, Guangdong, China. National research university under China's Ministry of Education; ranked **74th globally and 8th in China** ([U.S. News Best Global Universities, 2026–2027](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).
+- *2020.09 -- 2024.06*, Bachelor of Engineering in Marine Engineering and Technology, **Sun Yat-sen University**, Guangdong, China. National research university under China's Ministry of Education; ranked **85th globally and 8th in China** ([U.S. News Best Global Universities, 2025–2026](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).
 
 <span class="anchor" id="honors"></span>
 
