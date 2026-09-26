@@ -16,7 +16,7 @@ Research university of China's national academy of sciences; ranked 54th globall
 Master's student in Electronic Information · Sep 2024 – Present  
 School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
-National research university under China's Ministry of Education; ranked 74th globally and 8th in China ([U.S. News, 2026–2027](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).  
+Research university under China's Ministry of Education; ranked 74th globally and 8th in China ([U.S. News, 2026–2027](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).  
 B.Eng. in Marine Engineering and Technology · Sep 2020 – Jun 2024  
 GPA: 3.36/4.00.
 
