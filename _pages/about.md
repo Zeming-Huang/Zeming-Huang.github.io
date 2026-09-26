@@ -19,7 +19,7 @@ redirect_from:
 
 <aside class="phd-opportunity" aria-labelledby="phd-opportunity-title">
   <h2 id="phd-opportunity-title">Seeking PhD Opportunities · Fall 2027</h2>
-  <p>I am seeking PhD opportunities in <strong>Health AI, with a particular focus on cardiovascular AI</strong>, including ECG representation learning, arrhythmia monitoring, longitudinal cardiac modeling, and multimodal learning for real-world healthcare.</p>
+  <p>I am seeking PhD opportunities in <strong>AI for Health</strong>, including medical image analysis, physiological signal modeling, and multimodal learning. I have a particular interest in cardiovascular applications.</p>
   <p>I would welcome the opportunity to discuss potential research fit. <a href="mailto:huangzeming24@mails.ucas.ac.cn">Get in touch</a>.</p>
 </aside>
 
@@ -29,7 +29,7 @@ I work on medical imaging and physiological signals, including prostate ultrasou
 
 <span class="anchor" id="publications"></span>
 
-# Manuscripts
+# Publications and Manuscripts
 
 {% include manuscript-cards.html %}
 
@@ -39,9 +39,9 @@ I work on medical imaging and physiological signals, including prostate ultrasou
 - *2025.08 -- Present*, **Individualized ECG Waveform Forecasting** - University of Chinese Academy of Sciences; clinical collaborators: **Fuwai Hospital and Aerospace Center Hospital, Beijing**. Built preprocessing and representation-learning pipelines for over one million public ECG records and over 100,000 hospital recordings; contributed to waveform evaluation and follow-up analysis across two longitudinal forecasting studies, including a clinical subset of 959 participants; contributed to NSFC General Program and Beijing Natural Science Foundation proposal preparation.
 - *2026.04 -- 2026.09*, **NOR-TL: Paroxysmal AF Episode Localization** - University of Chinese Academy of Sciences; clinical collaborators: **Fuwai Hospital and Aerospace Center Hospital, Beijing**. Developed a dual-stream framework to address scarce time-point rhythm annotations, combining normal-reference and AF-specific ECG representations. Designed separate supervision for recording-level detection and temporal localization to use coarse and dense labels without treating them as interchangeable. Evaluated on AFDB and external LTAFDB and CPSC2021 cohorts with patient- or recording-disjoint partitions, achieving 97.98% temporal AUROC and 0.838 MCC on 1,425 CPSC2021 recordings. First-author manuscript submitted to ICASSP 2027.
 - *2024.09 -- Present*, **Privileged Learning for Prostate Ultrasound Segmentation and Measurement** - developed PRISM and MIRAUS to use MRI-derived information during training while retaining TRUS-only inference; evaluated patient-disjoint segmentation, external generalization, and model-derived calipers for conventional ellipsoid volume estimation; contributed to manuscript writing and grant proposal preparation for a NSFC Regional Science Fund project.
-- *2025.04 -- Present*, **Biomechanical Simulation and Physical Orthopedic Modeling** - constructed an ANSYS model of humeral motion using physiological movement constraints; compared simulated kinematics and force responses with collaborator measurements; designed and built a physical orthopedic model to reproduce humeral motion for bench-scale validation.
+- *2025.04 -- Present*, **Biomechanical Simulation and Physical Orthopedic Modeling** - constructed an ANSYS model of humeral motion using physiological movement constraints; compared simulated kinematics and force responses with collaborator measurements; designed and built a physical orthopedic model to reproduce humeral motion for bench-scale validation. Co-authored **BioShoulder**, a dataset of simulated shoulder muscle activations, as part of this broader shoulder-biomechanics collaboration (third author).
 - *2024*, **Deep Learning-Based Underwater Acoustic Channel Estimation** - investigated deep learning methods for underwater acoustic channel estimation in noisy and time-varying conditions, with a focus on signal processing and experimental evaluation.
-- *2023.08 -- 2023.09*, **South China Sea Survey Center, Ministry of Natural Resources** - assisted buoy operations, including GPS and CTD sensor deployment and recovery, data reception, and cloud-based data uploading.
+- *2023.08 -- 2023.09*, **South China Sea Survey Center, Ministry of Natural Resources of the People's Republic of China** - assisted buoy operations, including GPS and CTD sensor deployment and recovery, data reception, and cloud-based data uploading.
 - *2023 -- 2024*, **National Marine Vehicle Design and Manufacturing Competition** - participated in AUV modification, underwater testing, troubleshooting, and competition presentation; received Third Prize in the South China regional contest.
 - *2022*, **Tracked ROV Mechanical Design** - led the design of a tracked remotely operated vehicle; completed 3D modeling, motion simulation, and prototype fabrication using SolidWorks, COMSOL, CATIA, and 3D printing.
 

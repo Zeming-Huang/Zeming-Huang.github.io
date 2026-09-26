@@ -32,7 +32,7 @@
   label: PRISM
   title: "A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation"
   authors_html: "<strong>Zeming Huang</strong>, Haixin Chen, Chuanzhen Cao, Tao Wang, Zhipei Huang, and Fei Qin"
-  status: Manuscript
+  status: "IEEE BIBM 2026 (ML4BIM) · accepted"
   role: "Co-first author · listed first"
   image: /images/manuscripts/prism.png
   image_alt: "Clinical motivation for MRI-informed ultrasound learning, illustrated using Figure 1 from MIRAUS."

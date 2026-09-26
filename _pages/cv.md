@@ -12,6 +12,7 @@ author_profile: true
 ## EDUCATION
 
 **University of Chinese Academy of Sciences** · Beijing, China  
+Graduate university affiliated with the Chinese Academy of Sciences (CAS).  
 Master's student in Electronic Information · Sep 2024 – Present  
 School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
@@ -20,7 +21,7 @@ GPA: 3.36/4.00.
 
 ## RESEARCH INTERESTS
 
-Cardiovascular AI, with a focus on ECG representation learning, arrhythmia monitoring, longitudinal cardiac modeling, and multimodal learning. Developing practical health AI under incomplete annotations, heterogeneous data, and limited modality availability at deployment.
+AI for Health, with interests in robust representation learning, medical image analysis, physiological signal modeling, and multimodal learning under incomplete annotations and limited modality availability. Particularly interested in cardiovascular applications, including ECG analysis and longitudinal modeling.
 
 ## RESEARCH EXPERIENCE
 
@@ -48,7 +49,11 @@ Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 - Designed and implemented MIRAUS with utility-guided 2.5D MRI aggregation and ROI-bounded residual distillation, using MRI only during training and one TRUS frame at inference; developed complementary PRISM. Conducted patient-disjoint five-fold validation on 73 patients and automatic versus box-assisted evaluation on 24 external patients.
 - MIRAUS achieved 93.20% Dice and 3.62 mm HD95 internally; external Dice increased from 71.30% with automatic inference to 84.72% with box assistance. Model-derived calipers yielded 4.68 mL MAE against reference-caliper ellipsoid volumes in a simulated measurement workflow.
 
-## MANUSCRIPTS
+## PUBLICATIONS AND MANUSCRIPTS
+
+**Accepted**
+
+- **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. IEEE BIBM 2026 (ML4BIM), accepted. *Co-first author (listed first).*
 
 **Submitted / Under Review**
 
@@ -58,7 +63,6 @@ Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 **Other Manuscripts**
 
 - **MIRAUS: MRI-Informed Residual Adaptation for Single-Frame TRUS Prostate Boundary Measurement**. In preparation for submission to Measurement. *Co-first author (listed first).*
-- **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. Manuscript. *Co-first author (listed first).*
 - **Individualized ECG Waveform Forecasting Enables Testable Predictions of Longitudinal Morphology**. Manuscript. *Second author.*
 - **BioShoulder: A Large-Scale Biomechanical Dataset for Shoulder Muscle Activations**. Manuscript. *Third author.*
 
@@ -70,8 +74,10 @@ Collaborators: Peking University; Peking University People's Hospital.
 
 - Constructed an ANSYS model of humeral motion with physiological movement constraints; compared simulated kinematics and forces with collaborator measurements, finding preliminary agreement in motion-force trends.
 - Designed and built a rotating physical orthopedic model for bench-scale validation of humeral motion and loading responses, integrating 3D mechanical design, fabrication, and assembly.
+- Co-authored **BioShoulder**, a dataset of simulated shoulder muscle activations, as part of this broader shoulder-biomechanics collaboration. *Third author.*
 
-**South China Sea Survey Center, Ministry of Natural Resources** · Aug 2023 – Sep 2023  
+**South China Sea Survey Center** · Aug 2023 – Sep 2023  
+Ministry of Natural Resources of the People's Republic of China  
 *Buoy Laboratory Intern*
 
 - Supported GPS and CTD sensor deployment and recovery, processed received observations, and uploaded field data to cloud-based systems.
@@ -92,5 +98,5 @@ Collaborators: Peking University; Peking University People's Hospital.
 ## SKILLS
 
 - **Programming and Methods:** Python, MATLAB; digital signal processing, ECG representation learning, multimodal learning, medical image analysis, and patient-disjoint evaluation.
-- **Engineering:** ANSYS, SolidWorks, SolidWorks Motion, AutoCAD; 3D printing and mechanical assembly.
+- **Engineering:** ANSYS, SolidWorks, AutoCAD; 3D printing and mechanical assembly.
 - **Languages:** Mandarin Chinese; English (CET-6).

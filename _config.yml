@@ -16,7 +16,7 @@
 
 # Site Settings
 title: "Zeming Huang | Homepage" # TODO: e.g. "Your Name | Homepage"
-description: "Master's student at UCAS working on cardiovascular AI, physiological signals, and multimodal learning."
+description: "Master's student at UCAS working on AI for Health, medical imaging, physiological signals, and multimodal learning."
 url: "https://zeming-huang.github.io"
 repository: "Zeming-Huang/Zeming-Huang.github.io" # TODO: set to "USERNAME/REPO" (NOT a URL). If your repo is "USERNAME/USERNAME.github.io", use that.
 baseurl: "" # GitHub Pages project site needs this; if you rename repo to "Zeming-Huang.github.io", set this to "".
