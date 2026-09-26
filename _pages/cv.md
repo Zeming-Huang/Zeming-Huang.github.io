@@ -12,11 +12,11 @@ author_profile: true
 ## EDUCATION
 
 **University of Chinese Academy of Sciences** · Beijing, China  
-Research university of the Chinese Academy of Sciences (CAS); ranked 41st worldwide and 3rd in China ([CWUR 2026](https://cwur.org/2026/university-of-chinese-academy-of-sciences.php)).  
+Research university of China's national academy of sciences; ranked 53rd globally ([U.S. News, 2026](https://www.usnews.com/education/best-global-universities/university-of-chinese-academy-of-sciences-529679)).  
 Master's student in Electronic Information · Sep 2024 – Present  
 School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
-Project 985 and Double First-Class research university; ranked 81st worldwide and 7th in China ([CWUR 2026](https://cwur.org/2026/sun-yat-sen-university.php)).  
+National research university under China's Ministry of Education; ranked 74th globally ([U.S. News, 2026](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).  
 B.Eng. in Marine Engineering and Technology · Sep 2020 – Jun 2024  
 GPA: 3.36/4.00.
 
