@@ -48,8 +48,8 @@ I work on medical imaging and physiological signals, including prostate ultrasou
 <span class="anchor" id="education"></span>
 
 # Education
-- *2024.09 -- Present*, Master's studies in Electronic Information, University of Chinese Academy of Sciences, Beijing, China.
-- *2020.09 -- 2024.06*, Bachelor of Engineering in Marine Engineering and Technology, Sun Yat-sen University, Guangdong, China.
+- *2024.09 -- Present*, Master's studies in Electronic Information, **University of Chinese Academy of Sciences**, Beijing, China. Research university of the Chinese Academy of Sciences (CAS); ranked **41st worldwide and 3rd in China** ([CWUR 2026](https://cwur.org/2026/university-of-chinese-academy-of-sciences.php)).
+- *2020.09 -- 2024.06*, Bachelor of Engineering in Marine Engineering and Technology, **Sun Yat-sen University**, Guangdong, China. Project 985 and Double First-Class research university; ranked **81st worldwide and 7th in China** ([CWUR 2026](https://cwur.org/2026/sun-yat-sen-university.php)).
 
 <span class="anchor" id="honors"></span>
 

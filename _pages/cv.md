@@ -12,10 +12,11 @@ author_profile: true
 ## EDUCATION
 
 **University of Chinese Academy of Sciences** · Beijing, China  
-Graduate university affiliated with the Chinese Academy of Sciences (CAS).  
+Research university of the Chinese Academy of Sciences (CAS); ranked 41st worldwide and 3rd in China ([CWUR 2026](https://cwur.org/2026/university-of-chinese-academy-of-sciences.php)).  
 Master's student in Electronic Information · Sep 2024 – Present  
 School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
+Project 985 and Double First-Class research university; ranked 81st worldwide and 7th in China ([CWUR 2026](https://cwur.org/2026/sun-yat-sen-university.php)).  
 B.Eng. in Marine Engineering and Technology · Sep 2020 – Jun 2024  
 GPA: 3.36/4.00.
 
@@ -53,7 +54,7 @@ Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 
 **Accepted**
 
-- **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. IEEE BIBM 2026 (ML4BIM), accepted. *Co-first author (listed first).*
+- **PRISM: A Privileged Representation-Informed Synergistic Model for Transrectal Ultrasound-Only Prostate Segmentation**. IEEE BIBM 2026, accepted. *Co-first author (listed first).*
 
 **Submitted / Under Review**
 
