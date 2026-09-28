@@ -34,13 +34,13 @@ Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 - Built ECG preprocessing and representation-learning pipelines across over one million public records and over 100,000 hospital recordings; contributed data curation, full-waveform and P/T-wave analysis, fixed-readout comparisons, and follow-up validation to baseline-conditioned and historical-record forecasting studies.
 - Baseline-conditioned forecasts showed correspondence with within-person follow-up morphology and fixed clinical readouts, including evaluation in a 959-participant clinical subset. In historical-record forecasting, CLEF achieved a normalized RMSE of 0.077 versus 0.106 for an LSTM baseline.
 
-**NOR-TL: Single-Lead Paroxysmal AF Episode Localization** · Apr 2026 – Sep 2026  
+**NOR-TL: Single-Lead Paroxysmal AF Detection** · Apr 2026 – Sep 2026  
 *University of Chinese Academy of Sciences*  
-Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
+Clinical collaborator: Aerospace Center Hospital, Beijing.
 
-- Addressed scarce time-point rhythm annotations and abundant coarse recording labels in single-lead ECG, aiming to localize paroxysmal atrial fibrillation episodes without treating recording-level labels as temporal ground truth.
-- Designed and implemented NOR-TL with a frozen normal-reference encoder, an adaptive AF stream, and separate supervision for pooled detection and temporal localization. Evaluated on AFDB and external LTAFDB and CPSC2021 cohorts with patient- or recording-disjoint partitions.
-- Achieved 97.98% temporal AUROC and 0.838 MCC on 1,425 external CPSC2021 recordings by combining complementary annotation granularities. First-author manuscript submitted to ICASSP 2027.
+- Addressed limited interval-annotated ECG cohorts for intermittent AF monitoring, aiming to improve window-level recognition and time-point detection by combining large-scale recording labels with scarce temporal annotations.
+- Designed and implemented NOR-TL with a frozen normal-reference encoder, an adaptive AF stream, and separate supervision for pooled detection and sample-wise prediction. Evaluated on public, clinical-grade AFDB and external LTAFDB and CPSC2021 recordings with patient- or recording-disjoint partitions.
+- Achieved 98.0% temporal AUROC and 0.838 time-point MCC on 1,425 external CPSC2021 recordings. Ablations supported normal-reference conditioning and decoupled supervision. First-author manuscript submitted to ICASSP 2027.
 
 **MRI-Privileged Learning for Prostate Ultrasound** · Sep 2024 – Present  
 *University of Chinese Academy of Sciences*  
@@ -58,7 +58,7 @@ Clinical collaborator: China-Japan Friendship Hospital, Beijing.
 
 **Submitted / Under Review**
 
-- **NOR-TL: Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization**. Submitted to ICASSP 2027. *First author.*
+- **NOR-TL: Normal-Reference Temporal Learning with Decoupled Supervision for Paroxysmal AF Detection**. Submitted to ICASSP 2027. *First author.*
 - **A Cross-Temporal Latent Evolution Framework for Year-Scale ECG Waveform Forecasting from Historical Records**. Information Sciences, under review. *Fourth author.*
 
 **Other Manuscripts**

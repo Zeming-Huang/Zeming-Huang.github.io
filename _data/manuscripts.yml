@@ -1,12 +1,12 @@
 - id: nor-tl
   label: NOR-TL
-  title: "Normal-Reference Temporal Learning with Decoupled Detection and Temporal Supervision for Paroxysmal AF Episode Localization"
-  authors_html: "<strong>Zeming Huang</strong>, Tao Wang, Ning Liu, Yiquan Wang, Zhicheng Hu, Lei Wang, Gong Su, Zhipei Huang, and Fei Qin"
+  title: "Normal-Reference Temporal Learning with Decoupled Supervision for Paroxysmal AF Detection"
+  authors_html: "<strong>Zeming Huang</strong>, Tao Wang, Chenhao Wu, Ning Liu, Yiquan Wang, Lei Wang, Gong Su, Zhipei Huang, and Fei Qin"
   status: "Submitted to ICASSP 2027"
   role: "First author"
   image: /images/manuscripts/nor-tl.png
-  image_alt: "NOR-TL architecture showing normal-reference and AF-specific encoders with separate detection and temporal supervision."
-  summary: "Locating intermittent atrial fibrillation when detailed rhythm annotations are scarce. NOR-TL combines normal-reference and AF-specific representations, using recording-level labels for detection and interval annotations for temporal localization."
+  image_alt: "NOR-TL architecture showing normal-reference and AF-specific encoders, with weak labels for pooled detection and interval annotations for sample-wise AF prediction."
+  summary: "Learning AF detection from large recording-labeled collections and limited interval annotations. NOR-TL combines normal-reference and AF-specific features with decoupled supervision, evaluated through window-level recognition and time-point labeling on clinical-grade ECG recordings."
   links:
     - label: PDF
       url: /files/papers/nor-tl.pdf
