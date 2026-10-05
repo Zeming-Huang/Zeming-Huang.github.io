@@ -14,7 +14,7 @@ author_profile: true
 **University of Chinese Academy of Sciences** · Beijing, China  
 Research university of China's national academy of sciences; ranked 54th globally and 5th in China ([U.S. News 2026](https://www.usnews.com/education/best-global-universities/university-of-chinese-academy-of-sciences-529679)).  
 Master's student in Electronic Information · Sep 2024 – Present  
-School of Electronic, Electrical and Communication Engineering; GPA: 3.82/4.00.  
+GPA: 3.82/4.00.  
 **Sun Yat-sen University** · Guangdong, China  
 Research university under China's Ministry of Education; ranked 85th globally and 8th in China ([U.S. News 2026](https://www.usnews.com/education/best-global-universities/sun-yat-sen-university-506062)).  
 B.Eng. in Marine Engineering and Technology · Sep 2020 – Jun 2024  
@@ -38,7 +38,7 @@ Clinical collaborators: Fuwai Hospital; Aerospace Center Hospital, Beijing.
 *University of Chinese Academy of Sciences*  
 Clinical collaborator: Aerospace Center Hospital, Beijing.
 
-- Addressed limited interval-annotated ECG cohorts for intermittent AF monitoring, aiming to improve window-level recognition and time-point detection by combining large-scale recording labels with scarce temporal annotations.
+- Addressed limited interval-annotated ECG cohorts for intermittent AF monitoring, aiming to estimate how much of a long recording is AF and when, by combining large-scale recording labels with scarce temporal annotations.
 - Designed and implemented NOR-TL with a frozen normal-reference encoder, an adaptive AF stream, and separate supervision for pooled detection and sample-wise prediction. Evaluated on public, clinical-grade AFDB and external LTAFDB and CPSC2021 recordings with patient- or recording-disjoint partitions.
 - Achieved 98.0% temporal AUROC and 0.838 time-point MCC on 1,425 external CPSC2021 recordings. Ablations supported normal-reference conditioning and decoupled supervision. First-author manuscript submitted to ICASSP 2027.
 
